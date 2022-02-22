@@ -5,7 +5,6 @@ from pyqt_single_image_graphics_view import SingleImageGraphicsView
 class FittingGraphicsView(SingleImageGraphicsView):
     def __init__(self):
         super().__init__()
-        self.__initVal()
 
     def resizeEvent(self, e):
         self.fitInView(self._item, Qt.KeepAspectRatio)
