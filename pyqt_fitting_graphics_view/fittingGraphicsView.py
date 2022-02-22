@@ -7,5 +7,6 @@ class FittingGraphicsView(SingleImageGraphicsView):
         super().__init__()
 
     def resizeEvent(self, e):
-        self.fitInView(self._item, Qt.KeepAspectRatio)
+        if self._item:
+            self.fitInView(self._item, Qt.KeepAspectRatio)
         return super().resizeEvent(e)
