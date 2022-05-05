@@ -1,1 +1,1 @@
-git+https://git@github.com/yjg30737/pyqt-single-image-graphics-view.git@main
+pyqt-single-image-graphics-view>=0.0.1

@@ -11,6 +11,6 @@ setup(
     url='https://github.com/yjg30737/pyqt-fitting-graphics-view.git',
     install_requires=[
         'PyQt5>=5.8',
-        'pyqt-single-image-graphics-view @ git+https://git@github.com/yjg30737/pyqt-single-image-graphics-view.git@main'
+        'pyqt-single-image-graphics-view>=0.0.1'
     ]
 )
